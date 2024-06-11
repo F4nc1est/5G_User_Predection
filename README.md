@@ -57,21 +57,26 @@ The performance of the models is evaluated using the AUC (Area Under the Curve) 
 │ ├── 5Gpredict_Randomforest.ipynb
 │ ├── 5Gpredict_XGBoost.ipynb
 │ ├── KNN_Grid Search.ipynb
+
 ├── KNN
 │ ├── KNN_K_change.ipynb
 │ ├── KNN_K_n_neighbors_change.ipynb
 │ ├── KNN_n_neighbors_change.ipynb
+
 ├── LightGBM
 │ ├── LightGBM_Bayes.ipynb
 │ ├── LightGBM_Grid Search.ipynb
 │ ├── LightGBM_PSO.ipynb
+
 ├── XGBoost
 │ ├── XGBoost_Feature Crosses.ipynb
 │ ├── XGBoost_Hyperparameter Search.ipynb
 │ ├── XGBoost_Bayes_3para.ipynb
 │ ├── XGBoost_Random Search_Early Stopping.ipynb
+
 ├── data
 │ └── train.csv (not included in this repository)
+
 ├── README.md
 
 ## How to Run
@@ -79,13 +84,13 @@ The performance of the models is evaluated using the AUC (Area Under the Curve) 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/F4nc1est/5GUserPredictionProject.git
+    git clone https://github.com/F4nc1est/5GUserPrediction.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd 5GUserPredictionProject
+    cd 5GUserPrediction
     ```
 
 3. Run the Jupyter notebooks to see the modeling process and results:
