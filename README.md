@@ -47,37 +47,37 @@ The performance of the models is evaluated using the AUC (Area Under the Curve) 
 6. **Random Search with Early Stopping**: Used in `XGBoost_Random Search_Early Stopping.ipynb`.
 
 ## Repository Structure
-│ ├── 5Gpredict_Adaboosting.ipynb
-│ ├── 5Gpredict_DecisionTree.ipynb
-│ ├── 5Gpredict_K-means.ipynb
-│ ├── 5Gpredict_KNN_FAISS.ipynb
-│ ├── 5Gpredict_LightGBM.ipynb
-│ ├── 5Gpredict_LogisticRegression.ipynb
-│ ├── 5Gpredict_NaiveBayes.ipynb
-│ ├── 5Gpredict_Randomforest.ipynb
-│ ├── 5Gpredict_XGBoost.ipynb
-│ ├── KNN_Grid Search.ipynb
+### Content
+5Gpredict_Adaboosting.ipynb
+5Gpredict_DecisionTree.ipynb
+5Gpredict_K-means.ipynb
+5Gpredict_KNN_FAISS.ipynb
+5Gpredict_LightGBM.ipynb
+5Gpredict_LogisticRegression.ipynb
+5Gpredict_NaiveBayes.ipynb
+5Gpredict_Randomforest.ipynb
+5Gpredict_XGBoost.ipynb
+KNN_Grid Search.ipynb
 
-├── KNN
-│ ├── KNN_K_change.ipynb
-│ ├── KNN_K_n_neighbors_change.ipynb
-│ ├── KNN_n_neighbors_change.ipynb
+### KNN
+1. KNN_K_change.ipynb
+2. KNN_K_n_neighbors_change.ipynb
+3. KNN_n_neighbors_change.ipynb
 
-├── LightGBM
-│ ├── LightGBM_Bayes.ipynb
-│ ├── LightGBM_Grid Search.ipynb
-│ ├── LightGBM_PSO.ipynb
+### LightGBM
+1. LightGBM_Bayes.ipynb
+2. LightGBM_Grid Search.ipynb
+3. LightGBM_PSO.ipynb
 
-├── XGBoost
-│ ├── XGBoost_Feature Crosses.ipynb
-│ ├── XGBoost_Hyperparameter Search.ipynb
-│ ├── XGBoost_Bayes_3para.ipynb
-│ ├── XGBoost_Random Search_Early Stopping.ipynb
+### XGBoost
+1. XGBoost_Feature Crosses.ipynb
+2. XGBoost_Hyperparameter Search.ipynb
+3. XGBoost_Bayes_3para.ipynb
+4. XGBoost_Random Search_Early Stopping.ipynb
 
-├── data
-│ └── train.csv (not included in this repository)
+### data
+train.csv (not included in this repository)
 
-├── README.md
 
 ## How to Run
 
